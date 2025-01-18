@@ -6,10 +6,10 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    font-family: consolas;
+    font-family: 'Consolas', 'Courier New', monospace;
     color: rgb(236, 223, 204);
 }
-
+    
 #header {
     width: 100%;
     text-align: center;
