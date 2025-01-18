@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipes>
+    <recipe>
+        <name>tarta</name>
+        <img>tarta.jpg</img>
+        <ingridients>
+            <i>200g mąki pszennej</i>
+            <i>120g zimnego masła</i>
+            <i>60g cukru pudru</i>
+            <i>1 duże jajko</i>
+            <i>500ml mleka</i>
+            <i>5 żółtek</i>
+            <i>80g cukru</i>
+            <i>25g skrobi ziemniaczanej</i>
+            <i>2-3 łyżeczki aromatu waniliowego</i>
+            <i>40g masła</i>
+            <i>owoce do dekoracji</i>
+        </ingridients>
+        <directions>
+            <step stepName="krok 1: ciasto kruche">do miski wsyp mąkę, cukier puder, zimne masło (prosto z lodówki). miksuj aż ciasto będzie w formie piasku. dodaj wtedy jajko. uformuj ciasto w kulę, zwiń w folię i włóż do zamrażarki na 10-15 min (ciasto warto spłaszczyć). w tym punkcie ważna jest temperatura składników - wszystkie muszą być tak samo zimne i należy pracować szybko, aby za bardzo się nie ociepliły.</step>
+            <step stepName="krok 2:">obsyp blat mąką, rozwałkuj ciasto, wyłóż i wylep formę rękami. spód nakłuj widelcem. włóż ciasto do zamrażarki na 10-15 min (może być więcej). nastaw piekarnik na 190°c góra-dół. po wyciągnięciu z zamrażarki piecz ciasto przez 25-30 min, do złotego koloru. ciasto można obciążyć grochem lub ciecierzycą na papierze, ale obciążenie należy ściągnąć po 15 min.</step>
+            <step stepName="krok 3: krem">wlej mleko do garnka i dodaj wanilię (jedna laska wanilii to ok. 2-3 łyżeczki aromatu waniliowego), podgrzej. ubij żółtka i cukier mikserem, potem dodaj mąkę. gdy składniki się połączą, powoli dodawaj mleko. masę spowrotem przelej do garnka. podgrzewaj na średnim ogniu cały czas mieszając. do jeszcze ciepłego kremu dodaj masło. gdyby żółtka się ścięły, można krem przefiltrować przez sito. krem można od razu nałożyć na jeszcze ciepłe ciasto. owoce należy nałożyć od razu na ciepły krem. włóż ciasto do lodówki.</step>
+        </directions>
+    </recipe>
+
+    <recipe>
+    <name>pantofel</name>
+    <img>pantofel.jpg</img>
+    <ingridients>
+        <i>90ml gorącej wody</i>
+        <i>3 łyżki mleka</i>
+        <i>1 łyżeczka soli</i>
+        <i>1 łyżeczka cukru</i>
+        <i>180g mąki</i>
+        <i>1 łyżeczka drożdży instant</i>
+        <i>szynka, ser itd.</i>
+    </ingridients>
+    <directions>
+        <step stepName="krok 1:">wymieszać wodę z mlekiem, solą i cukrem. dodać mąkę i drożdże instant, wyrobić ciasto ręcznie. na sam koniec dodać olej. najlepiej zostawić ciasto na 5-10min (można więcej), żeby urosło.</step>
+        <step stepName="krok 2:">podzielić ciasto na mniejsze części. rozwałkować ciasto (lub ja używam talerza i ręcznie rozciągam na nim kawałek). posmarować sosem i ułożyć składniki na środku, na koniec zawinąć. smażyć na suchej patelni ok. 7 min na stronę.</step>
+    </directions>
+    </recipe>
+
+    <recipe>
+    <name></name>
+    <img></img>
+    <ingridients></ingridients>
+    <directions></directions>
+    </recipe>
+</recipes>

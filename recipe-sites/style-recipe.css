@@ -59,4 +59,13 @@ body {
     padding-right: 20px;
 }
 
+@media (max-width: 768px) {
+    #left, #right {
+        width: 100%;
+    }
 
+    #content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
