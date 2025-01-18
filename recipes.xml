@@ -42,9 +42,65 @@
     </recipe>
 
     <recipe>
+    <name>ciastka kruche</name>
+    <img>ciastka-kruche.jpg</img>
+    <ingridients>
+        <i>300g mąki pszennej</i>
+        <i>150g zimnego masła</i>
+        <i>70g cukru pudru</i>
+        <i>1 zimne jajko (rozmiar M)</i>
+        <i>1 płaska łyżeczka proszku do pieczenia</i>
+        <i>szczypta soli</i>
+        <i>270g mąki pszennej</i>
+        <i>30g kakao</i>
+        <i>150g zimnego masła</i>
+        <i>80g cukru pudru</i>
+        <i>1 zimne jajko (rozmiar M)</i>
+        <i>1 płaska łyżeczka proszku do pieczenia</i>
+        <i>szczypta soli</i>
+        <i>Masło i jajko powinny być zimne, prosto z lodówki.</i>
+    </ingridients>
+    <directions>
+        <step stepName="krok 1:">do miski przełożyć mąkę (lub mąkę z kakao w wersji kakaowej), pokrojone na małe kawałki zimne masło, cukier puder, jajko, proszek do pieczenia i szczyptę soli. zagnieść na jednolitą masę ręką lub robotem kuchennym. z ciasta uformować kulę, lekko ją spłaszczyć i owinąć w folię spożywczą. wstawić do lodówki na co najmniej 1 godzinę.</step>
+        <step stepName="krok 2:">schłodzone ciasto krótko zagnieść i rozwałkować na posypanym mąką blacie na grubość ok. 5 mm. z ciasta wykrawać dowolne kształty foremką i układać je w odstępach na blasze wyłożonej papierem do pieczenia. (wychodzą 3 blachy ciasteczek).</step>
+        <step stepName="krok 3:">piec jedną blachę po drugiej, w nagrzanym piekarniku ok. 12 minut w temperaturze 180°c, grzałka góra-dół do lekkiego zarumienienia. po upieczeniu pozostawić do ostygnięcia.</step>
+        <step stepName="krok 4:">ciasteczka można przechowywać w temperaturze pokojowej, w szczelnej puszce do 8 tygodni.</step>
+    </directions>
+    </recipe>
+
+    <recipe>
+    <name>bananowiec</name>
+    <img>bananowiec.jpg</img>
+    <ingridients>
+        <i>3 banany</i>
+        <i>60g masła orzechowego</i>
+        <i>2 jajka</i>
+        <i>1-2 łyżeczki cynamonu</i>
+        <i>1 łyżeczka aromatu waniliowego</i>
+        <i>70g cukru</i>
+        <i>150g mąki</i>
+        <i>50-60g kakao</i>
+        <i>2 łyżeczki proszku do pieczenia</i>
+        <i>1 łyżeczka soli</i>
+        <i>czekolada, orzechy na wierzch</i>
+    </ingridients>
+    <directions>
+        <step>zgnieść banany razem z masłem. w drugiej misce wymieszać jajka, cynamon, aromat i cukier, dodać do tego banany. następnie dodać mąkę, kakao, proszek do pieczenia i sól.</step>
+        <step>piec ok. 30-40 minut w temperaturze 180°C.</step>
+    </directions>
+    </recipe>
+
+    <recipe>
     <name></name>
     <img></img>
     <ingridients></ingridients>
     <directions></directions>
     </recipe>
+
+    <recipe>
+    <name></name>
+    <img></img>
+    <ingridients></ingridients>
+    <directions></directions>
+    </recipe>        
 </recipes>

@@ -3,7 +3,7 @@
 
     <!-- Match the specific recipe by name -->
     <xsl:template match="/">
-        <xsl:apply-templates select="recipes/recipe[name='pantofel']"/>
+        <xsl:apply-templates select="recipes/recipe[name='bananowiec']"/>
     </xsl:template>
 
     <xsl:template match="recipe">
