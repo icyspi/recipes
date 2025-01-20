@@ -3,9 +3,53 @@
       <meta charset="UTF-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       <link rel="stylesheet" href="style-recipe.css"/>
-      <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&amp;display=swap"
-            rel="stylesheet"/>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&amp;display=swap" rel="stylesheet"/>
       <title>ciastka kruche</title>
+      <script>
+         function adjustIngredients() {
+            const fullButterChecked = document.getElementById('full-butter-checkbox').checked;
+            const halfButterChecked = document.getElementById('half-butter-checkbox').checked;
+
+            let scaleFactor = 1;
+            if (fullButterChecked) {
+               scaleFactor = 2 / 3; 
+            } else if (halfButterChecked) {
+               scaleFactor = 1 / 3;
+            }
+
+            const ingredients = [
+               { id: 'jasne-maka', baseAmount: 300 },
+               { id: 'jasne-maslo', baseAmount: 150 },
+               { id: 'jasne-cukier', baseAmount: 70 },
+               { id: 'ciemne-maka', baseAmount: 270 },
+               { id: 'ciemne-kakao', baseAmount: 30 },
+               { id: 'ciemne-maslo', baseAmount: 150 },
+               { id: 'ciemne-cukier', baseAmount: 80 }
+            ];
+
+            ingredients.forEach(ingredient => {
+               const element = document.getElementById(ingredient.id);
+               const newAmount = (ingredient.baseAmount * scaleFactor).toFixed(0);
+               element.textContent = `${newAmount}g`;
+            });
+
+            const eggElements = document.querySelectorAll('.egg-size');
+            eggElements.forEach(egg => {
+               egg.textContent = scaleFactor === 1
+                     ? '1 zimne jajko (rozmiar M)'
+                     : '1 zimne jajko (rozmiar S)';
+            });
+
+            const bakingPowderElements = document.querySelectorAll('.baking-powder');
+            bakingPowderElements.forEach(bakingPowder => {
+            bakingPowder.textContent = scaleFactor === 1
+               ? '1 płaska łyżeczka proszku do pieczenia'
+               : scaleFactor === 2 / 3
+               ? '2/3 płaskiej łyżeczki proszku do pieczenia'
+               : '1/3 płaskiej łyżeczki proszku do pieczenia';
+            });
+         }
+      </script>
    </head>
    <body>
       <div id="header">
@@ -13,29 +57,37 @@
       </div>
       <div id="content">
          <div id="left">
-            <img src="../recipe-images/photo-not-found.jpg" alt="ciastka kruche"/>
+            <img src="../recipe-images/ciastka-kruche.jpg" alt="ciastka kruche"/>
             <h2>składniki:</h2>
+            <label>
+               <input type="checkbox" id="full-butter-checkbox" onclick="document.getElementById('half-butter-checkbox').checked = false; adjustIngredients()"/>
+               na całą kostkę masła 200g
+            </label> <br>
+            <label>
+               <input type="checkbox" id="half-butter-checkbox" onclick="document.getElementById('full-butter-checkbox').checked = false; adjustIngredients()"/>
+               na pół kostki masła 100g
+            </label>
             <ul class="grocery-list">
                <h3>ciasteczka jasne:</h3>
                <li>
                   <input type="checkbox"/>
-                  <label>300g mąki pszennej</label>
+                  <label><span id="jasne-maka">300g</span> mąki pszennej</label>
                </li>
                <li>
                   <input type="checkbox"/>
-                  <label>150g zimnego masła</label>
+                  <label><span id="jasne-maslo">150g</span> zimnego masła</label>
                </li>
                <li>
                   <input type="checkbox"/>
-                  <label>70g cukru pudru</label>
+                  <label><span id="jasne-cukier">70g</span> cukru pudru</label>
                </li>
                <li>
                   <input type="checkbox"/>
-                  <label>1 zimne jajko (rozmiar M)</label>
+                  <label class="egg-size">1 zimne jajko (rozmiar M)</label>
                </li>
                <li>
                   <input type="checkbox"/>
-                  <label>1 płaska łyżeczka proszku do pieczenia</label>
+                  <label class="baking-powder">1 płaska łyżeczka proszku do pieczenia</label>
                </li>
                <li>
                   <input type="checkbox"/>
@@ -44,27 +96,27 @@
                <h3>ciasteczka ciemne:</h3>
                <li>
                   <input type="checkbox"/>
-                  <label>270g mąki pszennej</label>
+                  <label><span id="ciemne-maka">270g</span> mąki pszennej</label>
                </li>
                <li>
                   <input type="checkbox"/>
-                  <label>30g kakao</label>
+                  <label><span id="ciemne-kakao">30g</span> kakao</label>
                </li>
                <li>
                   <input type="checkbox"/>
-                  <label>150g zimnego masła</label>
+                  <label><span id="ciemne-maslo">150g</span> zimnego masła</label>
                </li>
                <li>
                   <input type="checkbox"/>
-                  <label>80g cukru pudru</label>
+                  <label><span id="ciemne-cukier">80g</span> cukru pudru</label>
                </li>
                <li>
                   <input type="checkbox"/>
-                  <label>1 zimne jajko (rozmiar M)</label>
+                  <label class="egg-size">1 zimne jajko (rozmiar M)</label>
                </li>
                <li>
                   <input type="checkbox"/>
-                  <label>1 płaska łyżeczka proszku do pieczenia</label>
+                  <label class="baking-powder">1 płaska łyżeczka proszku do pieczenia</label>
                </li>
                <li>
                   <input type="checkbox"/>
